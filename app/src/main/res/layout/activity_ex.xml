@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".extra">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:text=" Please select your age! "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="44dp"
+        android:layout_marginLeft="30dp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/toddller"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonToddler"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="   Toddler (1-3 years)        "
+            android:textColor="#FFFF"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pre"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonPreSchooler"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="@string/pre_schooler_3_5_years"
+            android:textColor="#FFFF"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/schoolgoing"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonSchoolGoing"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="@string/school_age_6_12_years"
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/treeee"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonTeen"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="   Teenager (13-19 years)  "
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ad"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonYoung"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="   young Adult(19-25 years)  "
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="70dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/adult"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonAdult"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="#505DA5"
+            android:text="  ADult (26-64+ years)  "
+            android:textColor="#FFFF" />
+
+
+    </LinearLayout>
+
+
+
+
+
+  </LinearLayout>

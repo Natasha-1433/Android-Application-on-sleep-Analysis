@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Dieseas">
+
+
+    <TextView
+        android:id="@+id/SleepDiesease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black"
+        android:text="@string/sleep_diseases"
+        android:textSize="20dp" />
+
+    <Button
+        android:textColor="#FFFF"
+        android:id="@+id/insomia"
+        android:layout_width="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#505DA5"
+        android:text="Insomnia" />
+
+    <Button
+        android:id="@+id/apena"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Sleep Apena"
+        android:background="#505DA5"
+        android:textColor="#FFFF"
+
+        />
+
+    <Button
+        android:id="@+id/hypersomnia"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#505DA5"
+        android:textColor="#FFFF"
+        android:layout_height="wrap_content"
+        android:text="Hypersomnia" />
+
+    <Button
+        android:id="@+id/sleepingSickness"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:background="#505DA5"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Sleep Walking" />
+
+    <Button
+        android:id="@+id/restlessLegSyndrome"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"
+        android:background="#505DA5"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Restless Leg Syndrome" />
+    <Button
+        android:id="@+id/narcolepsy"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFF"
+        android:background="#505DA5"
+        android:layout_height="wrap_content"
+        android:text="Circadian rhythm disorders" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="673dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="\t\t\t\t\t\t ABOUT \t\t\t\t\t\t\n Sleep deprivation is a root cause of many problems that shows up almost every day  fatigue, learning and concentration difficulties, and accidents. Everyone can be affected by sleep deprivation, especially children. Why? Because there are a lot of things that capture their attention nowadays. They get caught up with most of these and forget to log a full length of sleep.It is as important to the human body as food and water, but many of us don’t get enough sleep. Insufficient sleep, inadequate quality of sleep or disruptions to the sleep-wake cycle has very unhealthy consequences on how we function.So Sleep Well Live Well...."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

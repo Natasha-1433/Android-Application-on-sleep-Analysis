@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">sleep analysis</string>
+    <string name="unable_to_sleep">Unable To sleep?</string>
+    <string name="sleepdiseases">Sleep Dieseases</string>
+    <string name="know_your_sleep_hours">know your sleep hours!</string>
+    <string name="awesom_facts">Awesome Facts</string>
+    <string name="about">About</string>
+
+    <string name="LinkTextView">TextView</string>
+    <string name="toddlersInfo">Sleep is an essential part of your toddler\'s brain development, toodler needs 11 to 14 hours per day of sleep. He\'s learning so much that he has a lot of experiences to file away at the end of each day. If your toddler is sleep-deprived, he may have trouble processing all this new information and understanding it, just as we all do after a night of broken sleep. While sleeping toddler\'s body is busy producing hormones that help to stimulate growth and appetite. Sleep-deprivation can affect the balance of these hormones, which may contribute to him being out of sorts the next day. It’s good to know that most toddlers will catch up on sleep after a night or two, so don’t worry too much about any long-term effects. It’s likely that any sleep disruption is just a phase, and will pass before long. for more information and effects go through: https://www.babycentre.co.uk/a558729/sleep-deprivation-in-toddlers</string>
+    <string name="let_s_get_started">Let\'s Get Started!</string>
+    <string name="todo">TODO</string>
+    <string name="school_age_6_12_years">School Age (6-12 years)</string>
+    <string name="pre_schooler_3_5_years">Pre Schooler (3-5 years)</string>
+    <string name="sleep_diseases">Sleep Diseases</string>
+
+
+</resources>
